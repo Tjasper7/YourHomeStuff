@@ -5,7 +5,12 @@ Currently when adding a row it is generating a random adjective and noun inside 
 
 The `ImageStore` file is handling the caching of the images.
 `ItemStore` has three main functions for adding, retriving, and deleting the image with the corresponding key
-
+``` 
+setImage
+imageForKey
+deleteImageForKey
+imageURLForKey
+```
 
 The `Item` is also using `NSCoding` so look at that to see an example of setting up a object model for NSCoding. 
 
