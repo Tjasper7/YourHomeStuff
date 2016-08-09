@@ -13,6 +13,6 @@ imageURLForKey
 ```
 
 The `Item` is also using `NSCoding` so look at that to see an example of setting up a object model for NSCoding. 
-
+For a stackView example check out `DetailItemViewController` in storyboard  
 ##WalkThrough
 ![Walkthrough](https://cloud.githubusercontent.com/assets/6208036/17531781/08f73e56-5e43-11e6-90ae-9491dee443d7.gif)
